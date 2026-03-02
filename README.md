@@ -25,13 +25,48 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- [X] Describe the game's purpose.
+- [X] Detail which bugs you found.
+- [X] Explain what fixes you applied.
+
+## How I Would Explain to Students:
+Describe the first issues you noticed when you ran the game. Explain:
+- what the app was doing
+- what you expected it to do instead
+- why the behavior felt wrong or unreliable
+Focus on concrete examples, such as incorrect hints, inconsistent reset behavior, attempt counter issues,or type mismatches in the game logic.
+
+Explain how you used AI during the debugging process. Be specific about:
+- which tool you used (for example, ChatGPT, Copilot, or both)
+- one suggestion from AI that helped you move forward
+- how you verified that suggestion
+- one suggestion that was incomplete, misleading, or still required correction
+The goal is not to say whether AI was “good” or “bad,” but to show how you evaluated its output critically.
+
+Describe how you decided whether a bug was actually fixed. Include:
+- at least one manual check you did in the Streamlit app
+- at least one pytest case you ran
+- how the test connected to the bug you were fixing
+Make it clear how testing helped confirm the repair instead of just assuming the code worked.
+
+Reflect on what this project taught you about how Streamlit behaves. In particular, explain:
+- what it means that Streamlit reruns the script during interaction
+- why st.session_state matters
+- how state management affected the secret number, attempts, or reset logic
+Try to explain this in a way that would make sense to another student who is new to Streamlit.
+
+Discuss one or two habits you want to reuse in future debugging work. For example:
+- testing small pieces of logic separately
+- verifying AI suggestions before trusting them
+- comparing expected output to actual output
+- tracing bugs across multiple files
+-End by reflecting on how this assignment shaped your understanding of AI-generated code and your role in reviewing it.
+
+
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+- [] [Insert a screenshot of your fixed, winning game here]
 
 ## 🚀 Stretch Features
 
