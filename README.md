@@ -66,7 +66,7 @@ Discuss one or two habits you want to reuse in future debugging work. For exampl
 
 ## 📸 Demo
 
-- [] [Insert a screenshot of your fixed, winning game here]
+(./test/glitchguess.png)
 
 ## 🚀 Stretch Features
 
