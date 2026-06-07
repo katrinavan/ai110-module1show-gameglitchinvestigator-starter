@@ -7,7 +7,7 @@ def test_winning_guess():
     assert "Correct" in message
 
 
-def test_guess_too_high():
+def test_guess_too_high(): 
     outcome, message = check_guess(60, 50)
     assert outcome == "Too High"
     assert "LOWER" in message

@@ -135,5 +135,5 @@ if submit:
                 f"Score: {st.session_state.score}"
             )
 
-st.divider()
+st.divider() 
 st.caption("Built by an AI that claims this code is production-ready.")
