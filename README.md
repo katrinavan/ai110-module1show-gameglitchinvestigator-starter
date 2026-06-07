@@ -29,7 +29,7 @@ It wrote the code, ran away, and now the game is unplayable.
 - [X] Detail which bugs you found.
 - [X] Explain what fixes you applied.
 
-## How I Would Explain to Students:
+<!-- ## How I Would Explain to Students:
 Describe the first issues you noticed when you ran the game. Explain:
 - what the app was doing
 - what you expected it to do instead
@@ -60,7 +60,7 @@ Discuss one or two habits you want to reuse in future debugging work. For exampl
 - verifying AI suggestions before trusting them
 - comparing expected output to actual output
 - tracing bugs across multiple files
--End by reflecting on how this assignment shaped your understanding of AI-generated code and your role in reviewing it.
+-End by reflecting on how this assignment shaped your understanding of AI-generated code and your role in reviewing it. -->
 
 ## 📋 Assignment Phases
 
